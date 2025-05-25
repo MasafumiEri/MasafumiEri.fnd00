@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🚙DIG TOYOTA DEALER🚙</title>
+  <link rel="stylesheet" href="dealer.css">
+  <style>
+    body {
+      background-image: url("USA_DEALER.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>🚙DIG TOYOTA DEALER🚙</h1>
+
+  <h2>気になるクルマを車名から選んでみよう！</h2>
+
+  <h3 class="same-size">STEP1：車種を選んでください</h3>
+  <h3 class="same-size">STEP2：諸元や特徴が表示されます</h3>
+
+  <div>
+    <button onmouseover="showCar('aqua')">アクア</button>
+    <button onmouseover="showCar('prius')">ヤリス</button>
+    <button onmouseover="showCar('yaris')">シエンタ</button>
+  </div>
+
+  <div id="car-info"></div> 
+
+  <h4>お近くの店舗を選んでみよう！</h4>
+  <div>
+    <button onclick="bodyType('Nagoya')">名古屋店</button>
+    <button onclick="bodyType('Okazaki')">岡崎店</button>
+    <button onclick="bodyType('Ichinomiya')">一宮店</button>
+  </div>
+
+  <h5>点検のご用命はこちら</h5>
+
+  <script src="script.js"></script>
+</body>
+</html>
